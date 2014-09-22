@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sparkrc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FirstLogin"
+            android:label="@string/title_activity_first_login" >
+        </activity>
+        <activity
+            android:name=".FirstVarSet"
+            android:label="@string/title_activity_first_var_set"
+            android:parentActivityName=".FirstLogin" >
+        </activity>
+        <activity
+            android:name=".EditLogin"
+            android:label="@string/title_activity_edit_login" 
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".EditVars"
+            android:label="@string/title_activity_edit_vars" 
+            android:parentActivityName=".MainActivity" >
+        </activity>
+    </application>
+
+</manifest>

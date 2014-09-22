@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spark Variable Reader</string>
+    
+    <string name="title_activity_first_login">Setup: Credentials</string>
+    <string name="title_activity_first_var_set">Setup: Variable Selection</string>
+    <string name="title_activity_edit_login">Edit Credentials</string>
+    <string name="title_activity_edit_vars">Edit Variable Selection</string>
+    
+    <string name="action_accept">Accept</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_save">Save</string>
+    <string name="action_login">Edit Credentials</string>
+    <string name="action_varSelection">Edit Variable Selection</string>
+    <string name="action_reset">Reset All</string>
+    
+    <string name="TextView_firstLogin">Enter your credentials</string>
+    <string name="TextView_firstVarSet">Check the variables you weant to read:</string>
+    <string name="TextView_showAccessToken_warning">Enabling this is a potential security risk as strangers migth get a hold of your Android Device and extract this information. On the other hand you won\'t have to enter your accessToken time and time again whenever you want to edit your credentials.</string>
+    
+    <string name="CheckBox_showAccessToken">remember accessToken</string>
+    
+    <string name="hint_deviceId">deviceId</string>
+    <string name="hint_accessToken">accessToken</string>
+    
+    <string name="hello_world">hello world.</string>
+    
+
+</resources>
