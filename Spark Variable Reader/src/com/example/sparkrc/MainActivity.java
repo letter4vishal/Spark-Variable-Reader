@@ -1,7 +1,7 @@
 /*
  * Spark Variable Reader
+ * Sydenth
  * Version 1.0
- * Sydenth (Yeah, a nickname. Not so sure about real names.)
  * 22.09.2014
  */
 
